@@ -4,6 +4,9 @@
 <p align="justify">
 Quando lidamos com séries que têm muitos "zeros" ou inícios abruptos, as métricas estatísticas tradicionais revelam muito sobre a natureza do dado. Abaixo, apresento a análise estatística, a escolha da métrica de erro, o modelo de Machine Learning (ML) ideal e a lógica de previsão para cada cenário.
 </p>
+<p align="center">
+  <img src="https://github.com/rodfloripa/LLM_em_monolito_vs_LLM_em_microservico/blob/main/Monolitico.png">
+</p>
 
 ## Lógica de Detecção Autônoma para Séries Temporais
 
