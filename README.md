@@ -22,10 +22,10 @@ Para tornar o sistema autônomo, precisamos de uma lógica que analise a série 
 * **Série 1 - Status Recente (Ciclo Encerrado):**
     <p align="justify">Se os últimos 20% da série são compostos quase integralmente por zeros, detecta-se que o ciclo de vida do produto se encerrou. O modelo deve interromper projeções de reposição para evitar estoque parado.</p>
 
-* **Série 2 - Sparsity (Extrema Intermitência):**
+* **Série 2 - Esparsidade (Extrema Intermitência):**
     <p align="justify">Analisa a proporção de zeros no histórico. Se for >60%, a série é classificada como intermitente. Nesses casos, utiliza-se o cálculo de intervalo médio entre demandas (como o método de Croston) em vez de regressões lineares simples.</p>
 
-* **Série 3 - Count de Eventos (One-Hit Wonder):**
+* **Série 3 - Conragem de Eventos (One-Hit Wonder):**
     <p align="justify">Se houver apenas 1 ou 2 vendas registradas em todo o histórico, o sistema identifica o item como uma demanda única e não recorrente, tratando-o estatisticamente como ruído para não inflar a previsão futura.</p>
 
 * **Série 4 - Tendência de Início (Lançamento):**
