@@ -32,3 +32,5 @@ Para tornar o sistema autônomo, precisamos de uma lógica que analise a série 
 
 * **Série 5 - Sincronização de Portfólio (Datas Distintas):**
     <p align="justify">Em cenários com múltiplas séries e entradas temporais diferentes, a análise estatística é aplicada individualmente a cada item após a remoção dos "zeros à esquerda" (<i>leading zeros</i>). Isso garante que a idade relativa do produto não mascare sua verdadeira natureza, permitindo que o sistema aprenda padrões com produtos maduros para prever o comportamento de itens recém-chegados.</p>
+
+<a href="https://github.com/rodfloripa/Series_Temporais_Anomalas/blob/main/5%20Series%20Temporais.ipynb">Veja aqui o códio e gráficos</a>
