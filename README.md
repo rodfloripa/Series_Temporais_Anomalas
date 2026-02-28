@@ -1,5 +1,6 @@
 
-# Análise e Previsão de Séries Temporais Anômalas de Vendas com Lógica de Detecção Autônoma
+# <a href="https://github.com/rodfloripa/Series_Temporais_Anomalas/blob/main/5%20Series%20Temporais.ipynb">Análise e Previsão</a> de Séries Temporais Anômalas de Vendas com Lógica de Detecção Autônoma
+
 
 <p align="justify">
 Quando lidamos com séries que têm muitos "zeros" ou inícios abruptos, as métricas estatísticas tradicionais revelam muito sobre a natureza do dado. Abaixo, apresento a análise estatística, a escolha da métrica de erro, o modelo de Machine Learning (ML) ideal e a lógica de previsão para cada cenário.
@@ -33,4 +34,4 @@ Para tornar o sistema autônomo, precisamos de uma lógica que analise a série 
 * **Série 5 - Sincronização de Portfólio (Datas Distintas):**
     <p align="justify">Em cenários com múltiplas séries e entradas temporais diferentes, a análise estatística é aplicada individualmente a cada item após a remoção dos "zeros à esquerda" (<i>leading zeros</i>). Isso garante que a idade relativa do produto não mascare sua verdadeira natureza, permitindo que o sistema aprenda padrões com produtos maduros para prever o comportamento de itens recém-chegados.</p>
 
-<a href="https://github.com/rodfloripa/Series_Temporais_Anomalas/blob/main/5%20Series%20Temporais.ipynb">Veja aqui o códio e gráficos</a>
+<a href="https://github.com/rodfloripa/Series_Temporais_Anomalas/blob/main/5%20Series%20Temporais.ipynb">Veja aqui o código e gráficos</a>
